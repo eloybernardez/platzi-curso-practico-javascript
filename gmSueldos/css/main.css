@@ -1,0 +1,112 @@
+:root {
+  --primary-orange: #fdbd4f;
+  --secondary-blue: #1d3f6c;
+  --terciary-green: #00ad96;
+  --button-text: #27282c;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+header h1 {
+  margin-top: 8px;
+  font-size: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.4rem;
+  width: 70%;
+  margin: 8px auto;
+  text-align: center;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tier {
+  border-radius: 8px;
+  border: none;
+  margin-top: 12px;
+  max-width: 300px;
+  background-color: var(--primary-orange);
+  box-shadow: 2px 0 4px 0 #333;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 8px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.tier div {
+  width: 85%;
+  margin: 8px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.tier div label {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: black;
+}
+
+.tier input {
+  outline: none;
+  margin: 4px 0;
+  width: 40%;
+  min-width: 50px;
+}
+
+.tier input:focus-within {
+  border-bottom: 4px solid var(--secondary-blue);
+}
+
+.button-container {
+  width: 60%;
+  margin: 12px auto;
+  text-align: center;
+}
+
+.button-container button {
+  width: 100%;
+  padding: 8px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background-color: var(--primary-orange);
+  border: none;
+  border-radius: 8px;
+  color: var(--button-text);
+}
+
+.button-container button:hover {
+  background-color: var(--button-text);
+  color: white;
+}
+
+#result {
+  width: 100%;
+  margin: 6px auto;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--button-text);
+}

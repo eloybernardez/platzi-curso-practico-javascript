@@ -1,0 +1,15 @@
+.tiers-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tier {
+  max-width: 300px;
+}
+
+.button-container button {
+  width: 50%;
+  max-width: 208px;
+}

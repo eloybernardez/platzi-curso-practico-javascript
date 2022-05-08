@@ -1,0 +1,24 @@
+section h2 {
+  text-align: center;
+}
+
+main {
+  justify-content: space-evenly;
+}
+
+main section:first-child {
+  order: 1;
+}
+
+main section:nth-child(2) {
+  order: 3;
+}
+
+main section:last-child {
+  order: 2;
+}
+
+section {
+  width: 45%;
+  margin-top: 16px;
+}
